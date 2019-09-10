@@ -1,2 +1,98 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
 body {
-  background-color: red; }
+  background-color: #fff;
+  font-family: 'Source Sans Pro', sans-serif; }
+
+ul {
+  list-style: none; }
+
+.wrapper {
+  max-width: 1541px;
+  margin: 0 auto; }
+
+.header {
+  border: 1px solid red;
+  background: #fff;
+  width: 1540px;
+  height: ‭76 0.851%; }
+  .header .menu,
+  .header .navigation,
+  .header .header-content {
+    padding: 0 calc(50% - 585px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: ‭75 0.97%; }
+  .header .menu,
+  .header .navigation {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .header .menu a,
+    .header .navigation a {
+      text-decoration: none;
+      color: #34404b;
+      font-size: 13px;
+      font-weight: 400; }
+      .header .menu a:hover,
+      .header .navigation a:hover {
+        color: #ff7013; }
+      .header .menu a img,
+      .header .navigation a img {
+        margin-right: 10px; }
+  .header .menu {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: 60px;
+    border-bottom: 2px solid red; }
+    .header .menu .right {
+      width: 4%; }
+    .header .menu ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .header .menu ul li {
+        margin-right: 20px; }
+  .header .navigation {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: 120px; }
+    .header .navigation ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .header .navigation ul li {
+        margin-left: 20px; }
+  .header .header-content {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 650px;
+    background: #ededf0;
+    border: 2px solid blue; }
+    .header .header-content .header-text {
+      width: 520px;
+      height: 115px;
+      border: 2px solid red; }
+      .header .header-content .header-text h2 {
+        color: #ff7013;
+        font-size: 30px; }
+      .header .header-content .header-text h5 {
+        color: #34404b;
+        font-size: 18px;
+        margin: 5px 0px 0px 0px; }
+    .header .header-content img {
+      width: 20%;
+      height: 50%; }
