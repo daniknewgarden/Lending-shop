@@ -4,6 +4,7 @@
 * {
   margin: 0;
   padding: 0;
+  border: 1px solid red;
 }
 
 body {
@@ -22,7 +23,7 @@ ul {
 }
 
 .header {
-  border: 1px solid red;
+  
   background: $bgColor;
   width: 1540px;
   height: ‭76.851%;
@@ -56,7 +57,7 @@ ul {
   .menu {
     justify-content: space-between;
     height: 60px;
-    border-bottom: 2px solid red;
+    border-bottom: 0.1px solid silver;
     .right{
       width: 4%;
       li{
@@ -85,11 +86,11 @@ ul {
   align-items: center;
   height: 650px;
   background: #ededf0;
-  border: 2px solid blue;
+  
     .header-text{
       width: 520px;
       height: 115px;
-      border: 2px solid red;
+      
         h2{
           color: $color;
           font-size: 30px;
@@ -108,4 +109,37 @@ ul {
 
     }
 }
+}
+.main{
+  padding: 120px 195px;
+  height: 1500px;
+  text-align: center;
+  background: $Background;
+    h1{
+      font-size: 225%;
+      margin: 0px 0px 15px 0px;
+    }
+    p{
+
+    }
+    .goods{
+        display: flex;
+        justify-content: space-between;
+        margin: 60px 0px;
+        width: ‭75.97%;
+        height: 365px;
+          .good{
+            background: $bgColor;
+            width: 270px;
+            height: 100%;
+              img{
+                width: 70%;
+                margin: 15px 0px;
+              }
+              h4{
+                font-size: 113%;
+                margin:  0px  0px 15px 0px;
+              }
+          }
+    }
 }
