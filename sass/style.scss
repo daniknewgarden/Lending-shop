@@ -4,7 +4,7 @@
 * {
   margin: 0;
   padding: 0;
-  border: 1px solid red;
+
 }
 
 body {
@@ -98,7 +98,10 @@ ul {
         h5{
           color: $textColor;
           font-size: 18px;
-          margin: 5px 0px 0px 0px;
+          margin: 20px 0px 10px 0px;
+        }
+        p{
+          font-size: 16px;
         }
 
     }
@@ -114,13 +117,14 @@ ul {
   padding: 120px 195px;
   height: 1500px;
   text-align: center;
-  background: $Background;
     h1{
+      color: $textColor;
       font-size: 225%;
       margin: 0px 0px 15px 0px;
     }
     p{
-
+      color: #495662;
+      font-size: 16px;
     }
     .goods{
         display: flex;
@@ -129,7 +133,7 @@ ul {
         width: ‭75.97%;
         height: 365px;
           .good{
-            background: $bgColor;
+            background: $Background;
             width: 270px;
             height: 100%;
               img{

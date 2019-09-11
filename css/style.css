@@ -1,8 +1,7 @@
 @charset "UTF-8";
 * {
   margin: 0;
-  padding: 0;
-  border: 1px solid red; }
+  padding: 0; }
 
 body {
   background-color: #fff;
@@ -90,7 +89,9 @@ ul {
       .header .header-content .header-text h5 {
         color: #34404b;
         font-size: 18px;
-        margin: 5px 0px 0px 0px; }
+        margin: 20px 0px 10px 0px; }
+      .header .header-content .header-text p {
+        font-size: 16px; }
     .header .header-content img {
       width: 20%;
       height: 50%; }
@@ -98,11 +99,14 @@ ul {
 .main {
   padding: 120px 195px;
   height: 1500px;
-  text-align: center;
-  background: #f4f6f8; }
+  text-align: center; }
   .main h1 {
+    color: #34404b;
     font-size: 225%;
     margin: 0px 0px 15px 0px; }
+  .main p {
+    color: #495662;
+    font-size: 16px; }
   .main .goods {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -114,7 +118,7 @@ ul {
     width: ‭75 0.97%;
     height: 365px; }
     .main .goods .good {
-      background: #fff;
+      background: #f4f6f8;
       width: 270px;
       height: 100%; }
       .main .goods .good img {
