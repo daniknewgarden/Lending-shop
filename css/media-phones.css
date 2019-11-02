@@ -1,0 +1,11 @@
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  * {
+    border: 1px solid red; 
+  } 
+  .header{
+    height: 900px;
+  }
+  .header .menu{
+    display: none;
+  }
+}
