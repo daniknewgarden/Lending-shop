@@ -1,0 +1,7 @@
+@media screen and (min-width: 1100px) and (max-width: 1450px) {
+  .header .menu ul {
+    width: 80%; }
+  .header .header-content {
+    padding: 0 calc(50% - 510px); }
+  .main {
+    padding: calc(50% - 510px); } }

@@ -1,0 +1,34 @@
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+  .wrapper {
+    max-width: 100%; }
+    .wrapper .header .menu ul {
+      width: 80%;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+    .wrapper .header .header-content {
+      padding: 0 50px; }
+      .wrapper .header .header-content .header-text {
+        width: 60%; }
+        .wrapper .header .header-content .header-text button {
+          width: 110px;
+          height: 30px; }
+      .wrapper .header .header-content img {
+        width: 200px;
+        height: 300px; }
+    .wrapper .main {
+      padding: 60px 5%; }
+      .wrapper .main .goods {
+        height: 420px; }
+        .wrapper .main .goods .good {
+          width: 250px; }
+          .wrapper .main .goods .good .airpods-pro-image {
+            width: 73.5%; }
+      .wrapper .main .why-us {
+        height: 350px; }
+        .wrapper .main .why-us .why-us_item {
+          width: 22%; }
+          .wrapper .main .why-us .why-us_item h4 {
+            font-size: 20px; }
+          .wrapper .main .why-us .why-us_item p {
+            font-size: 16px; } }
