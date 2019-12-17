@@ -7,18 +7,12 @@ $(document).ready(function name() {
             scrollTop: top
         }, 700);
     });
-
-    (function($) {
-    	$(function() {
-    		$('.icon').on('click', function(){
-    			$('.mobile-menu').toggleClass('active');
-    		});
-    		$('.mobile-link').on('click', function(){
-    			$('.mobile-menu').removeClass('active');
-    		});
-    	});
-    })(jQuery);
-
+    $('.icon').click(function () {
+        $('.icon,.mobile-menu').toggleClass('active');
+    });
+    $('.mobile-link').click(function () {
+        $('.mobile-menu').removeClass('active');
+    });
     
 });
 
