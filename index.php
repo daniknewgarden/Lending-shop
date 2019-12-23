@@ -30,7 +30,7 @@ if(trim($_POST['name']) != "" && trim($_POST['email']) != ""){
                 <li><a href="#main">Головна</a></li>
                 <li><a href="#gods">Продукти</a></li>
                 <li><a href="#why-us">Наші переваги</a></li>
-                <li><a href="#contacts">Контакти</a></li>
+                <li><a href="#contacts">rjrjrj</a></li>
               </ul>
             </div>
             <div class="mobile-menu">
