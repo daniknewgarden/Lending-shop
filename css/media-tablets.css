@@ -1,4 +1,4 @@
-@media screen and (min-width: 700px) and (max-width: 1100px) {
+@media screen and (min-width: 650px) and (max-width: 1100px) {
   .wrapper {
     max-width: 100%; }
     .wrapper .header .menu ul {
@@ -27,7 +27,8 @@
       .wrapper .main .why-us {
         height: 350px; }
         .wrapper .main .why-us .why-us_item {
-          width: 22%; }
+          -ms-flex-preferred-size: 30%;
+          flex-basis: 30%; }
           .wrapper .main .why-us .why-us_item h4 {
             font-size: 20px; }
           .wrapper .main .why-us .why-us_item p {

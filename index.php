@@ -13,9 +13,9 @@ if(trim($_POST['name']) != "" && trim($_POST['email']) != ""){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css?v14.11">
-    <link rel="stylesheet" href="css/media-phone.css?v14.11">
-    <link rel="stylesheet" href="css/media-tablets.css?v14.11">
-    <link rel="stylesheet" href="css/media-laptops.css?v14.11">
+    <link rel="stylesheet" href="css/media-phone.css?v23.12">
+    <link rel="stylesheet" href="css/media-tablets.css?v23.12">
+    <link rel="stylesheet" href="css/media-laptops.css?v23.12">
     <link rel="stylesheet" href="fonts/stylesheet.css">
 </head>
 <body>
@@ -46,7 +46,7 @@ if(trim($_POST['name']) != "" && trim($_POST['email']) != ""){
               <div class="header-text">
                 <h1>НАЙКРАЩА КОПІЯ AIRPODS</h1>
                 <h5>Все як в оригіналі, крім ціни</h5>
-                <button><a href="#">Купити</a></button>
+                <button><a href="#contacts">Купити</a></button>
               </div>
               <img src="images/Airpods.png" alt="Airpods">
 
