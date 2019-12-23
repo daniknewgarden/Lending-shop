@@ -13,9 +13,9 @@ if(trim($_POST['name']) != "" && trim($_POST['email']) != ""){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css?v14.11">
-    <link rel="stylesheet" href="css/media-phone.css?v23.12">
-    <link rel="stylesheet" href="css/media-tablets.css?v23.12">
-    <link rel="stylesheet" href="css/media-laptops.css?v23.12">
+    <link rel="stylesheet" href="css/media-phone.css?v22.12">
+    <link rel="stylesheet" href="css/media-tablets.css?v22.12">
+    <link rel="stylesheet" href="css/media-laptops.css?v22.12">
     <link rel="stylesheet" href="fonts/stylesheet.css">
 </head>
 <body>
@@ -30,7 +30,7 @@ if(trim($_POST['name']) != "" && trim($_POST['email']) != ""){
                 <li><a href="#main">Головна</a></li>
                 <li><a href="#gods">Продукти</a></li>
                 <li><a href="#why-us">Наші переваги</a></li>
-                <li><a href="#contacts">rjrjrj</a></li>
+                <li><a href="#contacts">Контакти</a></li>
               </ul>
             </div>
             <div class="mobile-menu">
